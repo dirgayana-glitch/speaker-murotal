@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ZIKI TIME - Speaker Murotal Plug-in 24 Jam Non Stop</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:'Segoe UI',Tahoma,sans-serif;background:#fdfaf3;color:#222;line-height:1.55}
+  .wrap{max-width:480px;margin:0 auto;background:#fff;box-shadow:0 0 30px rgba(0,0,0,.06)}
+  img{width:100%;display:block}
+  .hero-badge{background:linear-gradient(135deg,#0a6b3b,#0d8a4d);color:#fff;text-align:center;padding:14px 16px}
+  .hero-badge h1{font-size:22px;font-weight:800;letter-spacing:.5px}
+  .hero-badge p{font-size:13px;opacity:.95;margin-top:4px}
+  .section{padding:22px 18px}
+  .section h2{font-size:20px;color:#0a6b3b;text-align:center;margin-bottom:8px;font-weight:800}
+  .section p.lead{text-align:center;color:#555;font-size:14px;margin-bottom:14px}
+  .features{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px}
+  .feat{background:#f4f9f4;border:1px solid #e1ecd9;border-radius:12px;padding:12px;text-align:center}
+  .feat .ic{font-size:24px;margin-bottom:4px}
+  .feat b{display:block;font-size:14px;color:#0a6b3b}
+  .feat span{font-size:12px;color:#555}
+  .price-box{background:linear-gradient(135deg,#fff8e1,#ffeaa0);border:2px dashed #c98a00;border-radius:16px;padding:18px;text-align:center;margin:18px;box-shadow:0 6px 18px rgba(201,138,0,.15)}
+  .price-coret{color:#888;text-decoration:line-through;font-size:16px}
+  .price-now{color:#c0392b;font-size:34px;font-weight:900;margin:4px 0}
+  .price-box small{display:block;color:#444;font-size:12px;margin-top:4px}
+  .cta{display:block;background:linear-gradient(135deg,#25d366,#128c4a);color:#fff;text-align:center;padding:16px;font-weight:800;font-size:17px;text-decoration:none;border-radius:50px;margin:14px 0;box-shadow:0 10px 24px rgba(18,140,74,.35);animation:pulse 1.6s infinite}
+  @keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.03)}}
+  .urgency{background:#fff3cd;color:#856404;text-align:center;padding:10px;font-size:13px;font-weight:600;border-top:1px solid #ffe69c;border-bottom:1px solid #ffe69c}
+  .testi{background:#f8f4ee;padding:18px;border-radius:12px;margin:12px 0;font-size:14px;font-style:italic;color:#444;border-left:4px solid #0a6b3b}
+  .testi b{display:block;font-style:normal;color:#0a6b3b;margin-top:6px;font-size:13px}
+  .question{background:#0a6b3b;color:#fff;padding:24px 18px;text-align:center}
+  .question h3{font-size:18px;margin-bottom:8px}
+  .question p{font-size:14px;opacity:.95}
+  .check{padding:18px}
+  .check li{list-style:none;padding:8px 0 8px 30px;position:relative;font-size:14px;border-bottom:1px dashed #eee}
+  .check li:before{content:"✓";position:absolute;left:0;top:8px;background:#0a6b3b;color:#fff;width:22px;height:22px;border-radius:50%;text-align:center;font-weight:800;font-size:13px;line-height:22px}
+  .footer{background:#222;color:#aaa;text-align:center;padding:18px;font-size:12px}
+  .label-img{background:#0a6b3b;color:#fff;text-align:center;padding:10px;font-size:14px;font-weight:700;letter-spacing:.5px}
+
+  /* SOCIAL PROOF POPUP */
+  .sp-popup{position:fixed;bottom:20px;left:20px;background:#fff;border-radius:14px;box-shadow:0 12px 35px rgba(0,0,0,.22);padding:10px 14px 10px 10px;display:flex;align-items:center;gap:10px;max-width:300px;z-index:9999;transform:translateY(150%);opacity:0;transition:all .5s cubic-bezier(.2,.9,.3,1.2);border:1px solid #e8e8e8}
+  .sp-popup.show{transform:translateY(0);opacity:1}
+  .sp-popup .sp-img{width:50px;height:50px;border-radius:10px;background:#f4f9f4;flex-shrink:0;overflow:hidden;border:2px solid #0a6b3b}
+  .sp-popup .sp-img img{width:100%;height:100%;object-fit:cover}
+  .sp-popup .sp-text{font-size:12px;line-height:1.35;color:#333}
+  .sp-popup .sp-text b{color:#0a6b3b;display:block;font-size:12.5px}
+  .sp-popup .sp-text small{color:#888;font-size:10.5px;display:block;margin-top:2px}
+  .sp-popup .sp-dot{display:inline-block;width:7px;height:7px;background:#25d366;border-radius:50%;margin-right:4px;animation:blink 1.2s infinite}
+  @keyframes blink{0%,100%{opacity:1}50%{opacity:.3}}
+  .sp-popup .sp-close{position:absolute;top:4px;right:6px;background:none;border:none;color:#bbb;font-size:14px;cursor:pointer;line-height:1}
+  @media(max-width:520px){.sp-popup{left:10px;right:10px;max-width:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- HERO -->
+  <div class="hero-badge">
+    <h1>✨ ZIKI TIME ✨</h1>
+    <p>Speaker Murotal Plug-in • 24 Jam Non Stop Tanpa Henti</p>
+  </div>
+  <img src="1.jpeg" alt="Ziki Time Speaker Murotal">
+
+  <!-- OPENING EMOTIONAL -->
+  <div class="section">
+    <h2>Rumah Tenang, Hati Tentram 🌙</h2>
+    <p class="lead">Hadirkan lantunan Al-Qur'an, Zikir & Ruqyah <b>24 jam non-stop</b> di rumah Anda. Cukup colok, langsung berbunyi — tanpa ribet, tanpa baterai habis.</p>
+
+    <div class="features">
+      <div class="feat"><div class="ic">📖</div><b>Quran Surah</b><span>Lengkap & jernih</span></div>
+      <div class="feat"><div class="ic">⏰</div><b>24 Jam</b><span>Non-stop</span></div>
+      <div class="feat"><div class="ic">🤲</div><b>8 Zikir</b><span>+ Ruqyah</span></div>
+      <div class="feat"><div class="ic">💡</div><b>Lampu Tidur</b><span>Cahaya lembut</span></div>
+    </div>
+  </div>
+
+  <!-- VARIAN -->
+  <div class="label-img">🎨 TERSEDIA 5 PILIHAN WARNA</div>
+  <img src="2.jpeg" alt="Pilihan warna Ziki Time">
+  <div class="section" style="padding-top:10px">
+    <p class="lead">Pink • Orange • Biru • Hijau • Ungu — pilih sesuai selera & suasana ruangan Anda. <b>The Perfect Gift for Muslims</b> 🎁</p>
+  </div>
+
+  <!-- KUALITAS -->
+  <div class="label-img">✋ KUALITAS PREMIUM, BUKAN ASAL CETAK</div>
+  <img src="3.jpeg" alt="Teknologi tactile feel">
+  <div class="section" style="padding-top:10px">
+    <p class="lead">Desain timbul (<b>tactile feel</b>) dengan teknologi printing terbaru. Terasa premium di tangan, awet, tidak mudah pudar.</p>
+  </div>
+
+  <!-- COMPARISON -->
+  <div class="label-img">⚠️ JANGAN SALAH PILIH</div>
+  <img src="4.jpeg" alt="Perbandingan Ziki Time vs lainnya">
+  <div class="section" style="padding-top:10px">
+    <p class="lead">Banyak yang murah, tapi suara pecah & cepat rusak. <b>ZIKI TIME</b> pakai audio original, bahan ABS food-grade, tombol fisik teruji <b>10.000x tekan</b>, dan lulus uji jatuh.</p>
+  </div>
+
+  <!-- SOUND LIST -->
+  <div class="label-img">🎵 ISI LENGKAP DI DALAMNYA</div>
+  <img src="5.jpeg" alt="Daftar isi suara Ziki Time">
+  <div class="section" style="padding-top:10px">
+    <p class="lead">114 Surah Al-Qur'an • Ayat Ruqyah (rumah, anak, baby, perlindungan dari jin & sihir) • Ayat Rizki • Zikir Pagi Petang • Asmaul Husna • Selawat</p>
+  </div>
+
+  <!-- WHY YOU NEED -->
+  <div class="check">
+    <h2 style="text-align:center;color:#0a6b3b;margin-bottom:12px;font-size:19px">Kenapa Harus Punya?</h2>
+    <li>Rumah jadi lebih tenang & dijauhkan dari gangguan</li>
+    <li>Anak terbiasa mendengar Al-Qur'an sejak dini</li>
+    <li>Pengganti suara TV yang tidak bermanfaat</li>
+    <li>Cocok untuk tidur, belajar, kerja, dan ibadah</li>
+    <li>Hadiah istimewa untuk orang tua, pasangan & sahabat</li>
+  </div>
+
+  <!-- TESTI -->
+  <div class="section" style="background:#fafaf5">
+    <div class="testi">"Alhamdulillah, anak saya jadi lebih anteng tidurnya. Suaranya jernih banget!"<b>— Ibu Sari, Bandung</b></div>
+    <div class="testi">"Saya kasih ke orang tua, beliau senang sekali. Tinggal colok langsung bunyi."<b>— Pak Rizky, Jakarta</b></div>
+  </div>
+
+  <!-- PRICE -->
+  <div class="urgency">🔥 PROMO TERBATAS HARI INI — STOK MENIPIS</div>
+  <div class="price-box">
+    <div class="price-coret">Harga Normal Rp 285.000</div>
+    <div class="price-now">Rp 185.000</div>
+    <small>✅ Garansi Tukar Baru • ✅ COD Seluruh Indonesia • ✅ Bebas Ongkir*</small>
+    <a href="#order-form" class="cta">🛒 PESAN SEKARANG — BAYAR DI RUMAH</a>
+    <small style="color:#c0392b;font-weight:700">⚡ Sisa stok terbatas, klaim sebelum kehabisan!</small>
+  </div>
+
+  <!-- CLOSING -->
+  <div class="question">
+    <h3>💭 Bayangkan...</h3>
+    <p>Setiap sudut rumah Anda dipenuhi lantunan ayat suci. Hati lebih tenang, anak lebih sholeh, rezeki lebih lancar. Hanya dengan <b>Rp 185.000</b> — investasi terbaik untuk keluarga.</p>
+  </div>
+
+  <!-- ORDER FORM -->
+  <div id="order-form" class="label-img" style="background:linear-gradient(135deg,#c0392b,#e74c3c);padding:14px;font-size:16px">📝 ISI FORM PEMESANAN DI BAWAH</div>
+  <div style="padding:18px;background:#fff8f5">
+    <div style="text-align:center;margin-bottom:12px">
+      <p style="font-size:13px;color:#555">Lengkapi data Anda, pesanan langsung diproses & dikirim hari ini juga. <b style="color:#c0392b">BAYAR SAAT BARANG SAMPAI (COD)</b> ✅</p>
+    </div>
+
+    <!-- OrderOnline Embed Code - v8.0.2 -->
+    <div class="ooef">
+      <form class="orderonline-embed-form" data-username="chekoutsekarang" data-product-slug="speaker-murotal" data-product-id="6a2fe7a1e4cf6c88080b24aa" id="oo-embed-form-speaker-murotal-3595" data-origin="orderonline">
+        <div class="ooef-loader"><style>.ooef-loader{visibility: hidden;opacity: 0;position: absolute;left: 0;right: 0;top: 0;bottom: 0;display: flex;justify-content: center;align-items: center;flex-direction: column;animation: ooLoadingIn 10s ease;-webkit-animation: ooLoadingIn 10s ease;animation-fill-mode: forwards;overflow: hidden}@keyframes ooLoadingIn{0%{visibility: hidden;opacity: 0}20%{visibility: visible;opacity: 0}100%{visibility: visible;opacity: 1}}@-webkit-keyframes ooLoadingIn{0%{visibility: hidden;opacity: 0}20%{visibility: visible;opacity: 0}100%{visibility: visible;opacity: 1}}.ooef-loader>div,.ooef-loader>div:after{border-radius: 50%;width: 2.5rem;height: 2.5rem}.ooef-loader>div{font-size: 10px;position: relative;text-indent: -9999em;border: .25rem solid #f5f5f5;border-left: .25rem solid #55c4cf;-webkit-transform: translateZ(0);-ms-transform: translateZ(0);transform: translateZ(0);-webkit-animation: ooLoading 1.1s infinite linear;animation: ooLoading 1.1s infinite linear}.ooef-loader.error>div{border-left: .25rem solid #ff4500;animation-duration: 5s}@-webkit-keyframes ooLoading{0%{-webkit-transform: rotate(0);transform: rotate(0)}100%{-webkit-transform: rotate(360deg);transform: rotate(360deg)}}@keyframes ooLoading{0%{-webkit-transform: rotate(0);transform: rotate(0)}100%{-webkit-transform: rotate(360deg);transform: rotate(360deg)}}</style><div aria-live="polite" role="status"><div>Loading...</div></div></div>
+      </form>
+    </div>
+    <script>
+      if (typeof xLogError != 'function') { var xLogError = function (error) { var req = new XMLHttpRequest(); var payload = JSON.stringify({ url: document.location.href, line: error.line, stack: error.stack }); var params = 'message=' + encodeURIComponent(error.name) + '&payload=' + encodeURIComponent(payload) + '&type=embed&level=error'; req.open('POST', 'https://api.orderonline.id/log', true); req.setRequestHeader('Content-type', 'application/x-www-form-urlencoded'); req.send(params); }; }
+      try {
+        if (typeof xEmbedScript != 'function') { var xEmbedScript = function () { !function(w, d, e, v, id, t, s) { if (d.getElementById(id)) return; t = d.createElement(e);t.async = !0;t.src = v;t.id = id; s = d.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s); }(window, document, 'script', 'https://cdn.orderonline.id/js/embed-v2-slim.min.js?v=8.0.2', 'oo-embed-js'); }; }
+        if (typeof xEmbedInit != 'function') { var xEmbedInit = function (w, n) { if (w.ooe) return; n = w.ooe = function() { n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments) }; if (!w._ooe) w._ooe = n; n.push = n;n.loaded = !0;n.version = '8.0.2';n.queue = []; }; }
+        xEmbedInit(window);
+        ooe('setup', 'redirect', 'https://chekoutsekarang.orderonline.id');
+        ooe('init', '6a191c42f9c9ed111706aecc', '6a2fe7a1e4cf6c88080b24aa', '6a2fe82f6dc807508a0cdc89', 'oo-embed-form-speaker-murotal-3595', {"mode":"page","action":"Klik untuk pemesanan","title":"Form Pemesanan","triggerPixel":false,"triggerGtm":false});
+        if (!window.jQuery) { !function(w, d, e, v, id, t, s) { if (d.getElementById(id)) return; t = d.createElement(e);t.async = !0;t.src = v;t.id = id; t.addEventListener('load', xEmbedScript); s = d.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s); }(window, document, 'script', 'https://cdn.orderonline.id/js/vendor/jquery.min.js', 'oo-embed-jquery'); } else { xEmbedScript(); }
+      } catch (e) { xLogError(e); throw e; }
+    </script>
+    <!-- End OrderOnline Embed Code -->
+  </div>
+
+  <div class="footer">
+    © 2026 ZIKI TIME Indonesia • Pembayaran COD aman & terpercaya
+  </div>
+
+</div>
+
+<!-- SOCIAL PROOF POPUP -->
+<div class="sp-popup" id="spPopup">
+  <button class="sp-close" onclick="document.getElementById('spPopup').classList.remove('show')">✕</button>
+  <div class="sp-img"><img src="1.jpeg" alt="Ziki Time"></div>
+  <div class="sp-text">
+    <b id="spName">Ibu Sari</b>
+    <span id="spMsg">baru saja memesan ZIKI TIME</span>
+    <small><span class="sp-dot"></span><span id="spTime">2 menit lalu</span> • <span id="spCity">Bandung</span></small>
+  </div>
+</div>
+
+<script>
+  const buyers = [
+    {name:"Ibu Sari", city:"Bandung", time:"2 menit lalu"},
+    {name:"Pak Rizky", city:"Jakarta", time:"5 menit lalu"},
+    {name:"Mbak Aisyah", city:"Surabaya", time:"7 menit lalu"},
+    {name:"Bu Fatimah", city:"Yogyakarta", time:"11 menit lalu"},
+    {name:"Pak Hendra", city:"Medan", time:"14 menit lalu"},
+    {name:"Ibu Dewi", city:"Semarang", time:"18 menit lalu"},
+    {name:"Mas Arif", city:"Bekasi", time:"22 menit lalu"},
+    {name:"Bu Khadijah", city:"Makassar", time:"26 menit lalu"},
+    {name:"Pak Yusuf", city:"Palembang", time:"30 menit lalu"},
+    {name:"Ibu Nurul", city:"Depok", time:"34 menit lalu"},
+    {name:"Mbak Salma", city:"Bogor", time:"38 menit lalu"},
+    {name:"Pak Andi", city:"Malang", time:"42 menit lalu"}
+  ];
+  const msgs = [
+    "baru saja memesan ZIKI TIME",
+    "baru saja checkout 1 unit",
+    "baru saja order via COD",
+    "baru saja ambil promo Rp 185.000"
+  ];
+  let idx = 0;
+  const popup = document.getElementById('spPopup');
+  const elName = document.getElementById('spName');
+  const elMsg = document.getElementById('spMsg');
+  const elCity = document.getElementById('spCity');
+  const elTime = document.getElementById('spTime');
+
+  function showProof(){
+    const b = buyers[idx % buyers.length];
+    elName.textContent = b.name;
+    elCity.textContent = b.city;
+    elTime.textContent = b.time;
+    elMsg.textContent = msgs[Math.floor(Math.random()*msgs.length)];
+    popup.classList.add('show');
+    setTimeout(()=>popup.classList.remove('show'), 5000);
+    idx++;
+  }
+
+  setTimeout(showProof, 3000);
+  setInterval(showProof, 11000);
+</script>
+
+</body>
+</html>
